@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './src/screens/home/home'; 
+import {MainNavigation} from './src/modules/navigation/mainNavigation'; 
 
 const App = () => {
   return (
-    <Home />
+    <MainNavigation />
   );
 };
 
